@@ -1,0 +1,117 @@
+
+/* For mobile phones: */
+
+*{
+    box-sizing: border-box;
+}
+
+.nav {
+    padding: 25px;
+    text-align: center;
+   
+}
+
+.nav-list {
+    list-style: none;
+    display: block;
+   
+}
+
+.nav-list a {
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    padding: auto;
+}
+.container {
+    background-image: url(backback.jpg);
+    background-position: center;
+    height:1000px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+h1{
+    color:black;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+form {
+    padding: 8px;
+
+}
+
+label {
+    font-size: 20px;
+}
+
+
+   /* For Desktop: */
+
+
+@media only screen and (min-width: 768px) {
+
+*{
+    box-sizing: border-box;
+}
+
+.nav {
+    padding: 25px;
+    text-align: center;
+   
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.nav-list a {
+    text-decoration: none;
+    color:black;
+    font-size:25px;
+    padding: 3px 30px;
+}
+.container {
+    background-image: url(backback.jpg);
+    background-position: right;
+    height:1000px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+   
+}
+
+h1{
+    color:black;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+form {
+    padding: 0px 300px;
+
+}
+
+input {
+    padding: 10px 100px;
+   
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+iframe {
+    margin-left:900px;
+   
+}
+
+}

@@ -1,0 +1,254 @@
+
+
+/* For mobile phones: */
+   
+    *{
+        box-sizing: border-box;
+       
+    }
+
+    .nav {
+        padding: 10px;
+        text-align: center;
+       
+    }
+    
+    .nav-list {
+        list-style: none;
+        display: block;
+      
+        
+    }
+    
+    .nav-list a {
+        text-decoration: none;
+        color:wheat;
+        padding: auto;
+        font-size:20px;
+
+    
+    }
+    
+    .container {
+        background-image: url(siba.si.jpg);
+        background-position: right;
+        height: 830px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+       
+    }
+
+    
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        text-align: center;
+        padding-top:245px;
+        color: blanchedalmond;
+    }
+    
+    p{
+        font-family: 'Bad Script';
+        font-size: 15px;
+        text-align: center;
+        color: wheat;
+        
+       
+
+    }
+    
+    button {
+        margin-top: -10;
+        padding: 10px;
+        border: none;
+        color: white;
+       cursor: pointer;
+       border-radius: 40px;
+       margin-bottom: 20px;
+       background-color: rgb(129, 112, 93);
+       margin-left:130px;
+    }
+    
+    
+    .about-me {
+    background-color: rgb(129, 112, 93);
+    text-align: center;
+    height: 450px;
+    padding-top:10px;
+    }
+    
+    
+    h2 , h3 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: blanchedalmond;
+    }
+    /* grid med rows for mobile */
+    .aside {
+        background-color: rgb(212, 169, 127);
+        display: grid;
+        grid-template-rows: auto ;
+
+
+    }
+    
+    .back {
+        display:block;
+        background: rgb(129, 112, 93);
+        text-align: center;
+       
+        
+    
+    }
+    
+    .front {
+        
+        display:block;
+        background: rgb(129, 112, 93);
+        text-align: center;
+        
+    }
+    
+    .webb {
+        display:block;
+        background:  rgb(129, 112, 93);
+        text-align: center;
+    }
+    
+    .contact {
+        height: 120px;
+        background-color: wheat;;
+        padding-top:20px;
+        text-align: center;
+        list-style: none;
+    }
+    
+    .contact a {
+        text-decoration: none;
+        font-size: 40px;
+        color: rgb(175, 157, 133);
+    }
+    .contact {
+        height: 70px;
+    }
+    
+    .contact a {
+        font-size: 25px;
+    }
+    
+    /* For Desktop: */
+  
+  @media only screen and (min-width: 768px) {
+   
+    .nav {
+        padding: 30px;
+        text-align: center;
+       
+    }
+    
+    .nav-list {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    
+    .nav-list a {
+        text-decoration: none;
+        color:wheat;
+        padding: 3px 30px;
+        font-size:25px;
+        
+    
+    }
+   
+    .container {
+        background-position: center;
+        height: 800px;
+       
+    }
+
+    
+    p{
+        font-size: 20px;
+       
+    }
+    
+    button {
+         padding: 15px;   
+         margin-left: 700px;     
+    }
+    
+    
+    .about-me {
+    height: 400px;
+    padding-top:10px;
+   
+    }
+    
+    
+    .aside {
+        background-color: rgb(212, 169, 127);
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 150px);
+        grid-template-areas:
+        "back back front front webb webb"
+        "back back front front webb webb"
+        "back back front front webb webb"
+        "back back front front webb webb"
+        "back back front front webb webb"
+        "back back front front webb webb"
+
+    }
+.back {
+        box-sizing: border-box;
+        display:inline-block;
+        margin: 0 23px;
+        background: rgb(129, 112, 93);
+        grid-area: back;
+        text-align: center;
+        margin-top: 60px;
+        padding: 4px;
+        
+    
+    }
+    
+    .front {
+        box-sizing: border-box;
+        display:inline-block;
+        margin: 0 23px;
+        background: rgb(129, 112, 93);
+        grid-area: front;
+        text-align: center;
+        padding: 4px;
+
+    }
+    
+    .webb {
+        box-sizing: border-box;
+        display:inline-block;
+        margin: 0 23px;
+        background:  rgb(129, 112, 93);
+        grid-area: webb;
+        text-align: center;
+        margin-top: 60px;
+        padding: 4px;
+
+    }
+    h3 {
+       font-size: 30px;
+    }
+
+    
+    .contact {
+        height: 80px;
+    }
+    
+    .contact a {
+        font-size: 40px;
+    }
+
+}
+
